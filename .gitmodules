@@ -1,0 +1,3 @@
+[submodule "arduino_Uno/LinuxCNC_ArduinoConnector"]
+	path = arduino_Uno/LinuxCNC_ArduinoConnector
+	url = https://github.com/AlexmagToast/LinuxCNC_ArduinoConnector.git
