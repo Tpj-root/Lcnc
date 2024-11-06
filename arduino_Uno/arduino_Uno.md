@@ -16,6 +16,16 @@ https://github.com/PaulStoffregen/Encoder
 
 
 
+sub module
+
+
+git submodule add https://github.com/PaulStoffregen/Encoder LinuxCNC_Encoder
+git submodule add https://github.com/adafruit/Adafruit_NeoPixel.git LinuxCNC_Adafruit_NeoPixel
+
+
+
+
+
 insatll arduino_Uno CLI
 
 https://github.com/Tpj-root/Arduino_CLI
@@ -38,4 +48,5 @@ connect encoder
 
 net xjog axis.x.jog-counts   arduinocounter.0
 
+set value   axis.x.jog-scale 0.1
 
