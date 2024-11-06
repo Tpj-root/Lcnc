@@ -10,6 +10,12 @@ halrun -I -f ptest.hal
 
 
 
+Library list
+
+https://github.com/PaulStoffregen/Encoder
+
+
+
 insatll arduino_Uno CLI
 
 https://github.com/Tpj-root/Arduino_CLI
@@ -27,5 +33,9 @@ arduino-cli core install arduino:avr
 
 
 
+
+connect encoder
+
+net xjog axis.x.jog-counts   arduinocounter.0
 
 
